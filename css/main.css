@@ -1,0 +1,78 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+.container{
+	width: 1111px;
+	margin: 0 auto;
+}
+.title{
+	padding-top: 100px;
+}
+.title p {
+	font-family: "Roboto Slab ", serif;
+	font-size: 18px;
+	text-align: center;
+	color: #7c7c7c;
+	margin: 0;
+
+}
+.title h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	text-align: center;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #494949;
+	margin-top: 5px;
+
+}
+
+.hr_hor {
+	width: 30px;
+	height: 2px;
+	border: none;
+	background:  #2eb0ec;
+	margin-top: 20px;
+}
+
+.sevices {
+	margin-top: 80px;
+	margin-bottom: 500px;
+}
+.sevices_item {
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+.sevices_item h3 {
+	font-family: myriad-pro, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #494949;
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+.sevices_item p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-style: medium;
+	color: #8d8d8d;
+	line-height: 2;
+}
+.sevices_item:last-child {
+	float: right;
+}
+.sevices_item:nth-child(2) {
+	margin-left: 106px;
+	margin-top: 22px;
+	margin-bottom: 10px;
+}
+#castomization {
+	background: url(../img/UnlimitedCustomization/BG.jpg) no-repeat center top / cover;
+	height: 780px;
+	margin-top: 0px;
+}
