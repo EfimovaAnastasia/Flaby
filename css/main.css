@@ -1,53 +1,68 @@
-body{
+body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 17px;
     color: #fff;
 }
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
 .clearfix:after {
   content: '';
   display: table;
   width: 100%;
   clear: both;
 }
+
 div {
 	box-sizing: border-box;
 }
 
 header { 
-  background: url("../img/BG.jpg") no-repeat center top / cover;
+  background: url("../img/Header/BG.jpg") no-repeat center top / cover;
   height: 100vh;
-  }
-.container{
+}
+
+.container {
 	width: 1111px;
 	margin: 0 auto;
 }
-.logo{
+
+.logo {
   margin-top: 44px;
   float: left;
 }
+
 nav {
   float: right;
   margin-top: 64px;
 }
-.menu{
+
+.menu {
   padding: 0;
   margin: 0;
   display: block;
 }
-.menu li{
+
+.menu li {
   float: left;
   display: block;
   margin-right: 39px;
 }
-.menu li a{
+
+.menu li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 17px;
 }
-.btn_login{
+
+.btn_login {
   background-color: #4ca3e6;
   color: #fff;
   border-radius: 5px;
@@ -56,18 +71,24 @@ nav {
   display: block;
   width: 111px;
   padding: 15px 0;
-  margin: 0 auto;
+
   text-align: center;
 }
-.dividor{
-  margin-top: 36px;
-  float: none;
+
+.hr_hori {
+	width: 1111px;
+	height: 2px;
+	border: none;
+	background:  #bfe1fc;
+	margin-top: 30px;
 }
-.title_first{
+
+.title_first {
   font-size: 40px;
   font-family: 'Barlow Semi Condensed', serif;
   margin-top: 266px;
 }
+
 .titles {
   width: 501px;
   font-size: 26px;
@@ -75,16 +96,57 @@ nav {
   font-family: "Raleway", sans-serif;
   float:
 }
-.title{
-	padding-top: 100px;
+.buttons {
+	box-sizing: border-box;
+	float: left;
 }
+.button_google {
+	background: #ffffff;
+	color: #3e3e3e;
+	border-radius: 10px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 ;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 45px;
+	float: left;
+}
+
+.button_learn {
+	background: #53a0db;
+	color: #ffffff;
+	border-radius: 10px;
+	display: block;
+	width: 230px;
+	padding: 20px 0;
+	margin: 0 ;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 45px;
+	float: left;
+	margin-left: 30px;
+}
+
+.title {
+	padding-top: 80px;
+}
+
 .title p {
 	font-family: "Roboto Slab ", serif;
 	font-size: 18px;
 	text-align: center;
 	color: #7c7c7c;
-	margin: 0;
+	margin: 0px;
 }
+
 .title h2 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
@@ -113,7 +175,7 @@ nav {
 	text-align: center;
 }
 .sevices_item h3 {
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	color: #494949;
@@ -191,6 +253,93 @@ nav {
 	font-size: 14px;
 	font-weight: bold;
 	margin-top: 45px;
-
+}
+#services {
+	padding-bottom: 120px;
+}
+.services {
+	display: flex;
+	padding-top: 100px;
 }
 
+.services_item {
+	flex: 1 1 0;
+	padding-left: 120px;
+	position: relative;
+}
+
+.services_item img {
+	position: absolute;
+	top: 15px;
+	left: 60px;
+	z-index: 1;
+	padding-right: 0;
+}
+
+.services_item h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #494949;
+	padding-left: 0;
+}
+
+.services_item p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-style: medium;
+	color: #8d8d8d;
+	line-height: 2;
+}
+#custom {
+	background: url(../img/Custom/BG.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+
+.info {
+	position: relative;
+}
+
+.img-flex {
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.text1 {
+	position: absolute;
+	text-align: center;	
+	width: 650px;
+}
+.text1 h3 {
+ 	
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-style: bold;
+	color: #494949;
+	line-height: 0;	
+	margin-top: 20px;	
+}
+
+.text1 h4 {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-style: medium;
+	color: #7c7c7c;
+	line-height: 0;	
+	
+	margin-bottom: 50px;
+}
+
+.text1 p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-style: medium;
+	color: #7c7c7c;
+	line-height: 2;		
+}
+.arrow  {
+	display:block;
+	margin: auto;
+}
